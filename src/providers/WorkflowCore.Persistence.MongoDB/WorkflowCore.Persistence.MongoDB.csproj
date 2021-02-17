@@ -3,14 +3,13 @@
   <PropertyGroup>
     <AssemblyTitle>Workflow Core MongoDB Persistence Provider</AssemblyTitle>
     <Authors>Daniel Gerlag</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>WorkflowCore.Persistence.MongoDB</AssemblyName>
-    <PackageId>WorkflowCore.Persistence.MongoDB</PackageId>
+    <PackageId>Apiiro.WorkflowCore.Persistence.MongoDB</PackageId>
     <PackageTags>workflow;.NET;Core;state machine;WorkflowCore;MongoDB;Mongo</PackageTags>
     <PackageProjectUrl>https://github.com/danielgerlag/workflow-core</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/danielgerlag/workflow-core/blob/master/LICENSE.md</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/danielgerlag/workflow-core.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/apiiro/workflow-core.git</RepositoryUrl>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
@@ -19,6 +18,9 @@
     <AssemblyVersion>3.0.4.0</AssemblyVersion>
     <FileVersion>3.0.4.0</FileVersion>
     <PackageVersion>3.0.4</PackageVersion>
+    <PackageIconUrl>https://i.imgur.com/5fg74ch.png</PackageIconUrl>
+    <TargetFrameworks>netcoreapp3.1;netstandard2.0</TargetFrameworks>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>

@@ -4,6 +4,14 @@
 
 Workflow Core is a light weight embeddable workflow engine targeting .NET Standard.  Think: long running processes with multiple tasks that need to track state.  It supports pluggable persistence and concurrency providers to allow for multi-node clusters.
 
+apiiro made custom changes to `WorkflowCore.Persistence.MongoDB`. To push to apiiro nuget package:
+
+```bash
+cd src/providers/WorkflowCore.Persistence.MongoDB
+dotnet pack --configuration Release
+dotnet nuget push bin/Release/bin/Release/Apiiro.WorkflowCore.Persistence.MongoDB.*.nupkg --source "github" --skip-duplicate --no-symbols true
+```
+
 ### Announcements
 
 #### New related project: Conductor
